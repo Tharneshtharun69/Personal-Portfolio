@@ -3,11 +3,17 @@
 Welcome to my personal portfolio website! This space serves as a showcase of my skills, projects, and experiences. Feel free to explore and get to know me better.
 # Sections
 =>🏠HOME
+
 =>💥ABOUT
+
 =>📙EDUCATION
+
 =>💻SKILLS
+
 =>EXPERIENCE
+
 =>CERTIFICATES
+
 =>CONTACT
 # 🏠HOME
 In home section you will be able to know who i am and a button to download my CV and  a button to contact me via email and social media hover icons to visit my social media accounts and reach me such as gmail,linkedin,github,instagram.
