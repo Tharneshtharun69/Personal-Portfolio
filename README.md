@@ -32,4 +32,4 @@ In Experience section you will be able to find my experience level in the field 
 # CERTIFICATIONS 
 In Certifications section you will be able to find the certifications that I have done with IBM,TEACHNOOK,PANTECH E LEARNING,GREAT LEARNING,TECHFORGE
 # 🌐CONTACT
-In Contact section you will be able to find the link to contact me via email ,and a link to contact me via call 📞 
+In Contact section you will be able to find the link to contact me via email ✉,and a link to contact me via call 📞
