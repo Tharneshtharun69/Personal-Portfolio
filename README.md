@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! This space serves as a showcase of my 
 
 =>EXPERIENCE
 
-=>CERTIFICATES
+=>CERTIFICATIONS 
 
 =>🌐CONTACT
 # 🏠HOME
