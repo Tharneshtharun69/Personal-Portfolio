@@ -29,6 +29,7 @@ In Education  section you will be able to see the level of my education in SSLC,
 =>JAVA
 =>NELTIFY
 =>GITHUB
+=>WORDPRESS
 # EXPERIENCE
 In Experience section you will be able to find my experience level in the field of web development and cybersecurity.
 # CERTIFICATIONS 
