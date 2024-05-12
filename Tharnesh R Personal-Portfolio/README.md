@@ -27,6 +27,8 @@ In Education  section you will be able to see the level of my education in SSLC,
 =>JAVASCRIPT
 =>PYTHON
 =>JAVA
+=>NELTIFY
+=>GITHUB
 # EXPERIENCE
 In Experience section you will be able to find my experience level in the field of web development and cybersecurity.
 # CERTIFICATIONS 
