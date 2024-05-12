@@ -188,18 +188,10 @@ function skillsCounter(){
     progress_bars.forEach(p => p.style.animation = "progress 2s ease-in-out forwards");
 }
 function downloadCV() {
-    // Replace 'TharneshR_resume.pdf' with the actual filename
-    var cvUrl = 'TharneshR_resume.pdf';
-    // Create a temporary link element
     var link = document.createElement('a');
-    // Set the href attribute to the file URL
-    link.href = cvUrl;
-    // Specify the filename for the downloaded file
-    link.download = 'TharneshR_Resume.pdf';
-    // Append the link to the document
+    link.href = "./Tharnesh R Resume final.pdf";
+    link.download = "Tharnesh R Resume final.pdf";
     document.body.appendChild(link);
-    // Trigger a click on the link to start the download
     link.click();
-    // Remove the link from the document
     document.body.removeChild(link);
 }
