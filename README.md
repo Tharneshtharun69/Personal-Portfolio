@@ -36,7 +36,7 @@ In Education  section you will be able to see the level of my education in SSLC,
 # EXPERIENCE
 In Experience section you will be able to find my experience level in the field of web development.
 # PROJECTS
-In Projects section you will be able to find some of the projects that I have done in the field of web development and a links to the websites displayed and a button which acts as link to my github profile in which my github profile consists of many projects.
+In Projects section you will be able to find some of the projects that I have done in the field of web development and links to the websites displayed and a button which acts as link to my github profile in which my github profile consists of many projects.
 # CERTIFICATIONS 
 In Certifications section you will be able to find the certifications that I have done with IBM,HACKERRANK,TEACHNOOK,PANTECH E LEARNING,CISCO,GREAT LEARNING.
 # 🌐CONTACT
