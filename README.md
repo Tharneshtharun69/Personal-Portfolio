@@ -22,7 +22,7 @@ Welcome to my personal portfolio website! This space serves as a showcase of my 
 In home section you will be able to know who i am and a button to download my CV and  a button to contact me via email and social media hover icons to visit my social media accounts and reach me such as Github,G-mail,LinkedIn,Instagram.
 
 # 💥ABOUT 
-In About section you will be able to know my profession.
+In About section you will be able to know my profession and a button that act as link to the education section.
 
 # 📙EDUCATION 
 In Education  section you will be able to see the level of my education in SSLC,HSC,UG.
