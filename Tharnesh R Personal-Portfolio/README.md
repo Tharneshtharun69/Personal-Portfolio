@@ -27,6 +27,8 @@ In Education  section you will be able to see the level of my education in SSLC,
 =>JAVASCRIPT
 =>PYTHON
 =>JAVA
+# TOOLS
+=>WORDPRESS
 =>NELTIFY
 =>GITHUB
 # EXPERIENCE
