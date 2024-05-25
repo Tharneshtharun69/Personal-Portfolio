@@ -33,13 +33,21 @@ In Education section,you will be able to see the level of my education in SSLC,H
 In Skills section,you will be able to find my skills in the field of Web development,Application development,hosting,designing.
 skills and tools known:
 =>HTML
+
 =>CSS
+
 =>JAVASCRIPT
+
 =>JAVA
+
 =>PYTHON 
+
 =>GITHUB
+
 =>CANVA
+
 =>WORDPRESS 
+
 =>NETLIFY 
 
 # PROJECTS:
