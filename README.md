@@ -30,6 +30,7 @@ In About section,you will be able to know my profession and a button that act as
 In Education section,you will be able to see the level of my education in SSLC,HSC,UG.
 
 # 💻SKILLS:
+In Skills section,you will be able to find my skills in the field of Web development,Application development,hosting,designing.
 skills and tools known:
 =>HTML
 =>CSS
