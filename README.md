@@ -1,6 +1,6 @@
-# PERSONAL PORTFOLIO
+# PERSONAL PORTFOLIO:
 
-# PORTFOLIO
+# PORTFOLIO:
 Welcome to my personal portfolio website! This space serves as a showcase of my skills, projects, and experiences. Feel free to explore and get to know me better.
 
 # SECTIONS
