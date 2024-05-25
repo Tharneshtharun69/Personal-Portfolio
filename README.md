@@ -41,7 +41,7 @@ skills and tools known:
 =>WORDPRESS 
 =>NETLIFY 
 
-#PROJECTS:
+# PROJECTS:
 In Projects section,you will be able to find some of the projects done by me such as Educational news website and it's live link,Guess the number website and it's live link and a button that act as link to my GitHub profile which consists of more projects.
 
 # EXPERIENCE:
