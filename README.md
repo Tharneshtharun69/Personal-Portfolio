@@ -53,7 +53,7 @@ skills and tools known:
 =>NETLIFY 
 
 # PROJECTS:
-In Projects section,you will be able to find some of the projects done by me such as Educational news website and it's live link,Guess the number website and it's live link and a button that act as link to my GitHub profile which consists of more projects.
+In Projects section,you will be able to find some of the projects done by me such as Educational news website and it's live link,Guess the number website and it's live link,E Commerce website and it's live link,BMI Calculator website and it's live linkand a button that act as link to my GitHub profile which consists of more projects.
 
 # EXPERIENCE:
 In Experience section,you will be able to find my Internship experience level in the field of Web Development.
@@ -65,4 +65,4 @@ In Certificates section,you will be able to find the certifications that I have 
 In Contact section you will be able to find the link to contact me via email ✉,and a link to contact me via call 📞 and icons that act as links to my social media accounts and reach me such as Github,G-mail,LinkedIn,Instagram.
 
 # LIVE LINK TO MY PORTFOLIO WEBSITE:
-https://tharneshr-portfolio.netlify.app/
+https://tharneshr-portfolio.netlify.app
