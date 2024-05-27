@@ -12,6 +12,8 @@ Welcome to my personal portfolio website! This space serves as a showcase of my 
 
 =>EXPERIENCE
 
+=>PROJECTS
+
 =>CERTIFICATIONS 
 
 =>🌐CONTACT
@@ -41,9 +43,9 @@ In Education  section you will be able to see the level of my education in SSLC,
 In Experience section you will be able to find my Implant Training and Internship experience level in the field of web development 
 
 # PROJECTS
-In Projects section you will be able to find some of the projects done by me such as educational news website and guess the number website and a view more button which directs to my GitHub account on clicking it and links to the above websites 
+In Projects section you will be able to find some of the projects done by me such as educational news website and guess the number website and E-Commerce Website and BMI-Calculator Website and a view more button which directs to my GitHub account on clicking it and links to the above websites 
 
-# CERTIFICATIONS 
+# CERTIFICATIONS
 In Certifications section you will be able to find the certifications that I have done with IBM, HACKERRANK,TEACHNOOK,PANTECH E LEARNING,CISCO,GREAT LEARNING
 
 # 🌐CONTACT
