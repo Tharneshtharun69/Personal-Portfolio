@@ -31,13 +31,21 @@ In Education  section you will be able to see the level of my education in SSLC,
 
 # 💻SKILLS
 =>HTML
+
 =>CSS
+
 =>JAVASCRIPT
+
 =>JAVA
+
 =>PYTHON
+
 =>GITHUB
+
 =>CANVA
+
 =>WORDPRESS
+
 =>NELTIFY
 
 # EXPERIENCE
@@ -46,9 +54,13 @@ In Experience section you will be able to find my experience level in the field 
 # PROJECTS
 In Projects section you will be able to find my some of the projects such as:
 => EDUCATIONAL NEWS WEBSITE
+
 => GUESS THE NUMBER GAME WEBSITE
+
 => E-COMMERCE WEBSITE
+
 => BMI CALCULATOR WEBSITE
+
 and a button which acts as link to the live view of the websites and a button which acts as link to my Github profile which consists of more projects.
 
 # CERTIFICATIONS 
