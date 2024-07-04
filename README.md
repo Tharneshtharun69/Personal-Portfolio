@@ -53,6 +53,7 @@ In Experience section you will be able to find my experience level in the field 
 
 # PROJECTS
 In Projects section you will be able to find my some of the projects such as:
+
 => EDUCATIONAL NEWS WEBSITE
 
 => GUESS THE NUMBER GAME WEBSITE
