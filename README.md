@@ -52,10 +52,10 @@ In Projects section you will be able to find my some of the projects such as:
 and a button which acts as link to the live view of the websites and a button which acts as link to my Github profile which consists of more projects.
 
 # CERTIFICATIONS 
-In Certifications section you will be able to find the certifications that I have done with IBM,TEACHNOOK,PANTECH E LEARNING,GREAT LEARNING,TECHFORGE
+In Certifications section you will be able to find the certifications that I have done with IBM,HACKERRANK,TEACHNOOK,PANTECH E LEARNING,CISCO,GREAT LEARNING.
 
 # 🌐CONTACT
-In Contact section you will be able to find the link to contact me via email ✉,and a link to contact me via call 📞
+In Contact section you will be able to find a contact form through which you can contact me and a link to contact me via email ✉,and a link to contact me via call 📞
 
 # LIVE LINK TO MY PORTFOLIO WEBSITE:
 https://tharneshr-portfolio.netlify.app/
