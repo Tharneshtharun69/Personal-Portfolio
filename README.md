@@ -44,8 +44,6 @@ In Education section, you will be able to see the level of my education in SSLC,
 
 =>CANVA
 
-=>WORDPRESS
-
 =>NELTIFY
 
 # EXPERIENCE
