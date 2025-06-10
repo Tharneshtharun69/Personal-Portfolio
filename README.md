@@ -16,7 +16,9 @@ Welcome to my personal portfolio website! This space serves as a showcase of my 
 
 =>PROJECTS
 
-=>CERTIFICATIONS 
+=>PUBLICATIONS
+
+=>CERTIFICATES
 
 =>🌐CONTACT
 
@@ -52,6 +54,8 @@ In Experience section, you will be able to find my experience level in the field
 # PROJECTS
 In Projects section, you will be able to find my some of the projects such as:
 
+=>AN ENHANCED SPEECH EMOTION RECOGNITION SYSTEM USING RNN COMPARED WITH CNN
+
 => EDUCATIONAL NEWS WEBSITE
 
 => GUESS THE NUMBER GAME WEBSITE
@@ -61,6 +65,10 @@ In Projects section, you will be able to find my some of the projects such as:
 => BMI CALCULATOR WEBSITE
 
 and a button which acts as link to the live view of the websites and a button which acts as link to my Github profile which consists of more projects.
+
+# PUBLICATIONS
+In Publications section,you will be able to check out my publications in IEEE.
+An Enhanced Speech Emotion Recognition System using RNN compared with CNN.
 
 # CERTIFICATIONS 
 In Certifications section, you will be able to find the certifications that I have done with GREAT LEARNING,HACKERRANK,CODE CHEF.
