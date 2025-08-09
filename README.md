@@ -32,11 +32,13 @@ In About section, you will be able to know my profession.
 In Education section, you will be able to see the level of my education in SSLC,HSC,UG.
 
 # 💻SKILLS
-=>HTML
+=>HTML5
 
-=>CSS
+=>CSS3
 
 =>JAVASCRIPT
+
+=>SQL
 
 =>JAVA
 
@@ -46,10 +48,21 @@ In Education section, you will be able to see the level of my education in SSLC,
 
 =>CANVA
 
+=VISUAL STUDIO CODE
+
+=>PYTHON IDLE
+
+=>INTELLIJ IDEA
+
 =>NELTIFY
 
+=>NETBEANS
+
 # EXPERIENCE
-In Experience section, you will be able to find my experience level in the field of web development.
+In Experience section, you will be able to find my Internship and Implant Training experience in the field of web development.
+
+# COMPETITIVE PROGRAMMING PROFILES
+In Competitive Programming, you will be able to find my Competitive Programming Achievements in LeetCode, HackerRank, CodeChef.
 
 # PROJECTS
 In Projects section, you will be able to find my some of the projects such as:
@@ -73,7 +86,7 @@ In Publications section,you will be able to check out my publications in IEEE.
 An Enhanced Speech Emotion Recognition System using RNN compared with CNN.
 
 # CERTIFICATIONS 
-In Certifications section, you will be able to find the certifications that I have done with GREAT LEARNING,HACKERRANK,CODE CHEF.
+In Certifications section, you will be able to find the certifications that I have done with GREAT LEARNING,HACKERRANK,CODE CHEF in Python, Java, HTML, CSS, JavaScript, SQL.
 
 # 🌐CONTACT
 In Contact section, you will be able to find a contact form through which you can contact me and a link to contact me via email ✉,and a link to contact me via call 📞
