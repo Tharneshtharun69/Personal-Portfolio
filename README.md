@@ -54,9 +54,11 @@ In Education section, you will be able to see the level of my education in SSLC,
 
 =>INTELLIJ IDEA
 
-=>NELTIFY
+=>NETBEANS IDE
 
-=>NETBEANS
+=>ECLIPSE IDE
+
+=>NELTIFY
 
 # EXPERIENCE
 In Experience section, you will be able to find my Internship and Implant Training experience in the field of web development.
