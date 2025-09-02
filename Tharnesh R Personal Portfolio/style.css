@@ -387,14 +387,13 @@ section {
 /* ===== EDUCATION SECTION ===== */
 .education_container {
     max-width: 800px;
-    margin: 30px auto 0;
+    margin: 0px auto 0;
     padding: 0 1rem;
 }
-
 .education_data {
     margin-bottom: 1rem;
     background: white;
-    padding: 1.5rem;
+    padding: 0.5rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
@@ -550,7 +549,7 @@ section {
 .card {
     position: relative;
     width: 220px;
-    height: 260px;
+    height: 290px;
     border-radius: 14px;
     z-index: 1;
     overflow: hidden;
