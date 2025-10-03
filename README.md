@@ -18,12 +18,12 @@ Welcome to my personal portfolio website! This space serves as a showcase of my 
 
 =>PUBLICATIONS
 
-=>CERTIFICATES
+=>CERTIFICATIONS
 
 =>🌐CONTACT
 
 # 🏠HOME
-In Home section, you will be able to know who i am and a button to download my CV and  a button to contact me via email and social media hover icons to visit my social media accounts and reach me such as gmail,linkedin,github,instagram.
+In Home section, you will be able to know who i am and a button to download my CV and  a button to contact me via email and social media hover icons to visit my social media accounts and reach me such as github, gmail, linkedin, instagram.
 
 # 💥ABOUT 
 In About section, you will be able to know my profession.
@@ -88,7 +88,7 @@ In Publications section,you will be able to check out my publications in IEEE.
 An Enhanced Speech Emotion Recognition System using RNN compared with CNN.
 
 # CERTIFICATIONS 
-In Certifications section, you will be able to find the certifications that I have done with GREAT LEARNING,HACKERRANK,CODE CHEF in Python, Java, HTML, CSS, JavaScript, SQL.
+In Certifications section, you will be able to find the certifications that I have done with GREAT LEARNING,HACKERRANK,CODE CHEF,SCALER in Python, Java, HTML, CSS, JavaScript, SQL.
 
 # 🌐CONTACT
 In Contact section, you will be able to find a contact form through which you can contact me and a link to contact me via email ✉,and a link to contact me via call 📞
