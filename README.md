@@ -88,7 +88,7 @@ In Publications section,you will be able to check out my publications in IEEE.
 An Enhanced Speech Emotion Recognition System using RNN compared with CNN.
 
 # CERTIFICATIONS 
-In Certifications section, you will be able to find the certifications that I have done with GREAT LEARNING,HACKERRANK,CODE CHEF,SCALER in Python, Java, HTML, CSS, JavaScript, SQL.
+In Certifications section, you will be able to find the certifications that I have done with GREAT LEARNING,HACKERRANK,CODE CHEF,SCALER,Udemy in Python, Java, HTML, CSS, JavaScript, SQL.
 
 # 🌐CONTACT
 In Contact section, you will be able to find a contact form through which you can contact me and a link to contact me via email ✉,and a link to contact me via call 📞
