@@ -37,7 +37,10 @@
     text-decoration: none;
 }
 
-body {
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling globally */
+    position: relative;
     font-family: 'Poppins', sans-serif;
     background: var(--bg-color);
 }
@@ -158,7 +161,8 @@ header {
         transition: left 0.3s ease;
         z-index: 999;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-        overflow-y: auto;
+        overflow-y: hidden;
+        margin-top: 0;
     }
 
     .navlist.active {
@@ -180,6 +184,18 @@ header {
 
     body.menu-open {
         overflow: hidden;
+    }
+    .img-hero {
+        width: 280px;  /* Equal width and height for a perfect circle */
+        height: 280px;
+        margin: 0 auto; /* Ensures it stays centered */
+    }
+
+    .img-hero img,
+    .about-img img {
+        width: 100%;   /* Let it fill the 280px container */
+        height: 100%;
+        object-fit: cover;
     }
 }
 
@@ -223,6 +239,7 @@ section {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    margin-top: 10px;
     gap: 2rem;
     min-height: calc(100vh - var(--header-height));
 }
@@ -271,18 +288,30 @@ section {
 }
 
 .img-hero {
-    flex: 1 0 300px;
+    width: 400px;
+    height: 400px;
+    margin-left:50px;
+    border-radius: 50%;
+    overflow: hidden; 
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 3px solid var(--main-color);
+    /* This adds the soft glow effect seen in your screenshot */
+    box-shadow: 0 0 25px rgba(230, 0, 109, 0.2); 
+    background-color: #fff; 
+    flex-shrink: 0;
 }
 
 .img-hero img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;   
+    height: 100%;
+    /* 'cover' ensures the image fills the circle */
+    object-fit: cover; 
+    /* 'object-position' moves the photo down so your head isn't cut off */
+    /* Adjust the % if you want to show more/less of the blazer */
+    object-position: center top; 
 }
-
 .comp {
     width: 100%;
 }
@@ -291,7 +320,9 @@ section {
     flex: 1 1 400px;
     text-align: center;
 }
-
+.about-img{
+    margin-left: 150px;
+}
 .hero-info h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -299,7 +330,49 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* Target the social media container specifically in the hero section */
+.hero-info .social-media {
+    display: flex !important;
+    flex-direction: row !important; /* Forces icons to stay side-by-side */
+    justify-content: flex-start;    /* Aligns them to the left */
+    align-items: center;
+    gap: 1.2rem;                    /* Spacing between icons */
+    margin-top: 2rem;               /* Distance below the buttons */
+    width: 100%;
+}
 
+/* Ensure individual icons don't have vertical margins pushing them apart */
+.hero-info .social-media .bg-icon {
+    margin: 0 !important;
+}
+.social-media .bg-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--gradient-color-bg);
+    margin-left: 50%;
+}
+
+.social-media .bg-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-size: 20px;
+    line-height: 1;
+}
+footer .social-media {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important; /* Centers them in the footer */
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    margin: 2rem 0;
+}
 .hero-info h3 {
     font-size: 1.5rem;
     color: var(--font-color);
@@ -344,18 +417,55 @@ section {
 /* ===== SOCIAL MEDIA ===== */
 .social-media {
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 2rem;
+    justify-content: center; /* Centers icons horizontally */
+    align-items: center;     /* Aligns icons vertically in the row */
+    gap: 1.5rem;             /* Adds even spacing between circles */
+    width: 100%;             /* Ensures it takes the full width */
+    margin: 2rem 0;
 }
 
 .social-media .bg-icon {
-    width: 50px;
-    height: 50px;
-    color: white;
-    font-size: 1.5rem;
+    width: 45px;
+    height: 45px;
+    background: var(--gradient-color-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
 }
 
+/* 2. Target the link inside to ensure it fills the circle */
+.social-media .bg-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+/* 3. Normalize the icon size and behavior */
+/* Ensure the icons inside are centered */
+.social-media .bg-icon i {
+    color: white !important;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 4. Keep your hover effect */
+.social-media .bg-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--hover-box-shadow);
+}
+/* Fix for footer specifically if needed */
+footer .social-media .bg-icon {
+    margin: 0 0;
+}
 /* ===== ABOUT SECTION ===== */
 .about {
     display: flex;
@@ -366,15 +476,22 @@ section {
     gap: 2rem;
 }
 
+/* Update this in your general styles */
 .about-img {
-    flex: 1 1 300px;
+    flex: 0 0 300px; /* Changed from '1 1' to '0 0' to prevent stretching */
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about-img img {
-    max-width: 100%;
-    border-radius: 10px;
+    width: 300px; /* Must be same as height */
+    height: 300px;
+    border-radius: 50%; /* This creates the circle */
+    object-fit: cover;
+    border: 3px solid var(--main-color);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -608,7 +725,6 @@ section {
     25% {
         transform: translate(-100%, -100%) translate3d(100%, 0, 0);
     }
-
     50% {
         transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
     }
@@ -745,7 +861,37 @@ body.modal-open {
     margin-top: 10px;
     color: #e6006d;
 }
+/* Target laptop screens and above */
+@media screen and (min-width: 1024px) {
+    .home {
+        display: flex;
+        flex-direction: row;    /* Keeps image and text side-by-side */
+        justify-content: center; /* Centers the whole group horizontally */
+        align-items: center;     /* Centers them vertically */
+        gap: 80px;              /* Space between image and text */
+        padding: 0 5%;
+        width: 100%;
+        min-height: 100vh;
+    }
 
+    .img-hero {
+        margin: 0 !important;   /* Removes any manual left margins */
+        flex-shrink: 0;
+    }
+
+    .hero-info {
+        text-align: left;       /* Keeps text aligned left relative to itself */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Aligns buttons/icons to the start of the text */
+        max-width: 600px;
+    }
+
+    .social-media {
+        justify-content: flex-start; /* Aligns icons with the buttons above */
+        width: 100%;
+    }
+}
 .bg-icon i,
 .bg-icon img {
     font-size: 2rem;
@@ -813,6 +959,19 @@ body.modal-open {
     :target::before{
         content: none;
     }
+    .img-hero img,
+    .about-img img {
+        width: 400px;
+        height: 500px;
+    }
+    .social-media {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 15px !important;
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
     .comp {
         flex-direction: column;
         align-items: center;
@@ -857,6 +1016,17 @@ body.modal-open {
     .certificate_container {
         margin-top: 0px;
     }
+    .img-hero, 
+    .about-img,
+    .about-img img,
+    .img-hero img {
+        width: 280px !important;  /* Force a consistent size */
+        height: 280px !important; /* Force a consistent size */
+    }
+    
+    .about-img {
+        margin: 0 auto; /* Keeps it centered on mobile */
+    }
 }
 
 /* ===== PROJECTS SECTION ===== */
@@ -890,7 +1060,9 @@ body.modal-open {
         flex-direction: column;
         align-items: center;
     }
-
+    .social-media{
+        margin-left: 100px;
+    }
     section {
         margin-top: 0px;
     }
@@ -953,6 +1125,10 @@ body.modal-open {
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         transition: transform 0.3s ease-in-out;
+    }
+    .intern-implants
+    {
+        margin-top: 0px;
     }
 }
 
@@ -1093,6 +1269,7 @@ footer h2 {
 
 footer .social-media {
     margin-bottom: 1.5rem;
+    align-items: center;
 }
 
 footer p {
@@ -1155,4 +1332,152 @@ footer p {
 
 .p-2 {
     padding: 2rem;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem; /* Increase this from 2rem to 5rem or 8rem to push items apart */
+    min-height: calc(100vh - var(--header-height));
+}
+
+/* Only apply the shift if the screen is larger than a tablet */
+@media screen and (min-width: 1024px) {
+    .img-hero {
+        margin-left: 80px; 
+    }
+    
+    .hero-info {
+        text-align: left; /* Optional: Usually looks better if text aligns with the shift */
+    }
+}
+
+/* Ensure mobile resets the margin */
+@media screen and (max-width: 768px) {
+    .img-hero {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home {
+        display: flex;
+        justify-content: center; /* Keeps the group centered as a whole */
+        gap: 100px;             /* Space between image and text */
+        padding: 0 10%;
+    }
+
+    .img-hero {
+        /* Add a bit more margin to fine-tune the rightward move */
+        margin-left: 100px; 
+        flex-shrink: 0;
+    }
+
+    .hero-info {
+        /* Ensure text stays aligned with the buttons */
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .social-media {
+        /* Align icons with the buttons above them */
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+}
+
+.social-media, .media {
+    display: flex;
+    justify-content: center; /* This centers the icons horizontally */
+    align-items: center;     /* This aligns them vertically */
+    gap: 1.5rem;             /* Keeps consistent spacing between icons */
+    width: 100%;             /* Ensures the container spans the full width */
+    margin: 20px 0;          /* Adds some breathing room top and bottom */
+}
+
+/* Ensure individual icons don't have stray margins */
+.social-media .bg-icon {
+    margin: 0 !important; 
+}
+
+@media screen and (min-width: 1024px) {
+    .home {
+        display: flex;
+        justify-content: center;
+        gap: 80px; /* Space between your photo and the text */
+        padding: 0 10%;
+    }
+
+    .hero-info {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Aligns buttons and icons to the left */
+    }
+
+    .btn-box {
+        justify-content: flex-start; /* Moves Hire Me / CV buttons to the left */
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .home {
+        display: flex;
+        justify-content: center;
+        gap: 80px; /* Space between your photo and the text */
+        padding: 0 10%;
+    }
+
+    .hero-info {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Aligns buttons and icons to the left */
+    }
+
+    .btn-box {
+        justify-content: flex-start; /* Moves Hire Me / CV buttons to the left */
+        margin-left: 0;
+    }
+
+    .social-media {
+        justify-content: flex-start; /* Aligns social icons to the left */
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+.social-media {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.social-media .bg-icon {
+    width: 45px;
+    height: 45px;
+    background: var(--gradient-color-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-media .bg-icon i {
+    color: white !important;
+    font-size: 20px;
+    /* This prevents the icon from shifting slightly up or down */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media .bg-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(230, 0, 109, 0.3);
 }
